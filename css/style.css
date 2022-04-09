@@ -1,3 +1,177 @@
-body{
+
+/* Палитра цветов
+Accent #2196F3
+title color #212121
+Secondary color #757575
+white #FFFFFF
+second bg color #E5E5E5
+third bg color #2F303A
+mail tel color rgba(255, 255, 255, 0.6)
+bgcolor button portfolio #F5F4FA
+
+
+*/
+:root{
+    --primary-text-color: #212121;
+    --Secondary-text-color:#757575;
+    --white: #FFFFFF;
+    --second-bgcolor: #E5E5E5;
+    --third-bgcolor: #2F303A;
+    --mail-tel-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --button-bgcolor: #F5F4FA;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
     list-style: none;
+}
+body{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+/* Шапка */
+}
+.logo-header, .logo-footer{
+        color: var(--primary-text-color);
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+}
+.logo-decor{
+    color: var(--accent-color)
+}
+
+.nav-link, .nav-communication {
+    color: var(--primary-text-color);
+
+font-weight: 500;
+
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.current{
+    color: var(--accent-color)
+}
+.header ul :hover, .header ul :focus{
+    color: var(--accent-color)
+}
+.nav-communication{
+
+    color: var(--Secondary-text-color);
+  
+    font-weight: 500;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/* Main index */
+.hero-title{
+    color: var(--white);
+  
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+ 
+   
+}
+.hero{
+    background: #000;
+}
+.hero-button{
+    background-color: var(--accent-color);
+    color: var(--white);
+font-family: Roboto,
+sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+}
+.feature-list-title{
+color: var(--primary-text-color);
+
+    font-weight: 700;
+   
+    line-height: 1.14;
+    }
+
+.feature-info{
+    color: var(--Secondary-text-color);
+
+}
+.lessons-titile, .team-title{
+    color: var(--primary-text-color) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+
+}
+
+
+.team-name{
+    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+
+}
+.name-info{
+    color: var(--Secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+/* footer */
+footer{
+    background-color: var(--third-bgcolor);
+}
+.logo-footer{
+    color: var(--white);
+}
+.adress{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.adress-offline{
+    color: var(--white);
+}
+.adress-online{
+    color: var(--mail-tel-color);
+}
+/* main portfolio */
+.search-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: var(--button-bgcolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.search-btn:hover, .search-btn:focus{
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+.card-title{
+    color: var(--primary-text-color);
+ 
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+.card-info{
+color: var(--Secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
